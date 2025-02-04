@@ -1,4 +1,4 @@
-Here are the 10 examples of using `socat` in English:
+Here are 10 examples of using `socat`:
 
 ---
 
