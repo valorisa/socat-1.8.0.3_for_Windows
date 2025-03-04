@@ -81,25 +81,22 @@ SRC_DIR="${NAME}-${VERSION}"
 
 # Default configure options
 src_configure() {
-    default_configure \
-        --disable-static \
-        --enable-shared
+    ./configure
 }
 
 # Installation du package
 src_compile() {
-    ./configure --disable-static --enable-shared
     make
 }
 
 # Installation dans l'arborescence Cygwin
 src_install() {
-    default_install
+    make install
 }
 
 # Vérification du package après installation
 check() {
-    default_check
+    socat -V
 }
 ```
 
