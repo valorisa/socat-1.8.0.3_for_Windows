@@ -33,8 +33,8 @@ Socat (SOcket CAT) is a multipurpose relay tool for bidirectional data transfer 
 
 2. Clone this repository:
    ```
-   git clone https://github.com/valorisa/socat-1.8.0.3_Cygport_for_Windows.git
-   cd socat-1.8.0.3_Cygport_for_Windows
+   git clone https://github.com/valorisa/socat_1.8.0.3-for-Windows.git
+   cd socat_1.8.0.3-for-Windows
    ```
 
 3. Build the package:
