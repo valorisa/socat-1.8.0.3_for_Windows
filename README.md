@@ -1,5 +1,9 @@
 # Compiling socat 1.8.0.3 on Windows 11 using Cygwin
 
+## Description
+
+Socat (SOcket CAT) is a multipurpose relay tool for bidirectional data transfer between two independent data channels. This project aims to simplify the process of building and installing Socat 1.8.0.3 on Windows systems using Cygwin.
+
 ## Step 1: Install Cygwin
 
 1. **Download the Cygwin Installer**:
