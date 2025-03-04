@@ -1,4 +1,4 @@
-# socat 1.8.0.3 Cygport for Windows
+## socat 1.8.0.3 Cygport for Windows
 
 This section provides a Cygport package for building and installing Socat 1.8.0.3 on Windows using Cygwin.
 
