@@ -56,18 +56,18 @@
    ```
 
 3. Verify the compilation:
-   - Once the compilation is complete, you should have an executable `socat.exe` in the current directory (`./src`).
+   - Once the compilation is complete, you should have an executable `socat.exe` in the current directory (`your_current_directory`).
 
 
 ## Step 4: Use socat.exe
 
 1. Copy `socat.exe` to an accessible directory from your Windows command line:
    ```bash
-   cp src/socat.exe /cygdrive/c/path/to/your/desired/location/
+   cp your_current_directory/socat.exe /cygdrive/c/path/to/your/desired/location/
    ```
    For example, if you want to copy `socat.exe` to `C:\Program Files\socat`, use:
    ```bash
-   cp src/socat.exe /cygdrive/c/Program\ Files/socat/
+   cp your_current_directory/socat.exe /cygdrive/c/Program\ Files/socat/
    ```
 
 2. Add this directory to the system PATH to be able to use `socat` from anywhere:
