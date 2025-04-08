@@ -28,7 +28,7 @@ Socat (SOcket CAT) is a multipurpose relay tool for bidirectional data transfer 
 
 1. Install required Cygwin packages (with admin rights):
 
-   ```bash
+   ```console
    setup-x86_64.exe -q -P cygport,gcc-core,gcc-g++,make,patch,diffutils,binutils,autoconf,automake,git,subversion,wget,curl
    ```
 
