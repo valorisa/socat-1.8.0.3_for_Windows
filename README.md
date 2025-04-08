@@ -35,26 +35,30 @@ Socat (SOcket CAT) is a multipurpose relay tool for bidirectional data transfer 
    - You can find a shortcut in the Start menu or run `C:\cygwin64\Cygwin.bat`.
 
 2. Download the socat source code (version 1.8.0.3):
- ```bash
+
+   ```bash
    wget http://www.dest-unreach.org/socat/download/socat-1.8.0.3.tar.gz
    ```
 
 3. Extract the source code:
+
    ```bash
    tar -xzf socat-1.8.0.3.tar.gz
    cd socat-1.8.0.3
    ```
 
-
 ## Step 3: Compile socat
 
 1. Prepare the sources for compilation:
+
    ```bash
    ./configure
    ```
+
    If you encounter errors related to OpenSSL, ensure that `openssl-devel` is installed via Cygwin.
 
 2. Compile socat:
+
    ```bash
    make
    ```
@@ -62,14 +66,16 @@ Socat (SOcket CAT) is a multipurpose relay tool for bidirectional data transfer 
 3. Verify the compilation:
    - Once the compilation is complete, you should have an executable `socat.exe` in the current directory (`your_current_directory`).
 
-
 ## Step 4: Use socat.exe
 
 1. Copy `socat.exe` to an accessible directory from your Windows command line:
+
    ```bash
    cp your_current_directory/socat.exe /cygdrive/c/path/to/your/desired/location/
    ```
+
    For example, if you want to copy `socat.exe` to `C:\Program Files\socat`, use:
+
    ```bash
    cp your_current_directory/socat.exe /cygdrive/c/Program\ Files/socat/
    ```
@@ -82,10 +88,8 @@ Socat (SOcket CAT) is a multipurpose relay tool for bidirectional data transfer 
    - Click "New" and add the path to the folder containing `socat.exe` (e.g., `C:\Program Files\socat`).
    - Click "OK" to close all windows.
 
-
 ## Conclusion
 
 You now have compiled `socat` version 1.8.0.3 under Windows 11 using Cygwin and obtained an executable `socat.exe`. You can use it directly from the Windows command line after adding its location to the PATH. This method provides maximum flexibility to adapt `socat` to your specific needs.
-
 
 This will help other users understand and follow the process clearly.

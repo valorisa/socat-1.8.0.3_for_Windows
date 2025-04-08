@@ -1,3 +1,5 @@
+# This is the result of the Cygport build of socat
+
 ```bash
 bbrod@DESKTOP-GZ301ZC /cygdrive/c/Users/bbrod/Downloads
 $ cat socat-1.8.0.3.cygport
